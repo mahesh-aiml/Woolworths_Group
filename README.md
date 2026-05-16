@@ -14,38 +14,31 @@
 
 # 📌 Project Overview
 
-This project is a professional **Retail & E-Commerce Sales Analysis Dashboard** developed using **Power BI** and **SQL**.
+This project is a professional **Retail & E-Commerce Sales Analysis Dashboard** built using **SQL** and **Power BI**.
 
-The dashboard transforms raw business data into meaningful insights that help stakeholders monitor:
+The main objective of this project is to analyze retail sales data and generate meaningful business insights through interactive dashboards and visual analytics.
 
-- Revenue Performance
-- Profitability
-- Customer Purchasing Behavior
-- Product Performance
-- Regional Sales Trends
-- Business Growth
-
-The project follows a complete analytics workflow including:
+The project follows a complete data analytics workflow:
 
 ```text
-SQL → Data Cleaning → Data Modeling → Power BI → Dashboard → Business Insights
+SQL Database → Data Extraction → Power BI → Data Cleaning → Dashboard → Business Insights
 ```
 
 ---
 
 # 🎯 Business Problem
 
-Retail and e-commerce businesses generate large volumes of transactional data daily.
+Retail businesses generate huge amounts of transactional data daily.
 
-Without proper analysis, companies face challenges such as:
+Without proper analysis, businesses face challenges such as:
 
-- Identifying profitable products
-- Tracking monthly sales trends
-- Understanding customer behavior
-- Monitoring regional performance
-- Making data-driven decisions
+- Difficulty identifying top-performing products
+- Lack of visibility into sales trends
+- Poor understanding of customer behavior
+- Difficulty tracking profit and revenue
+- Limited business decision-making insights
 
-This dashboard solves these problems through interactive business intelligence reporting.
+This project solves these problems by creating a professional Power BI dashboard for business intelligence and reporting.
 
 ---
 
@@ -53,12 +46,149 @@ This dashboard solves these problems through interactive business intelligence r
 
 | Tool / Technology | Purpose |
 |------------------|----------|
-| Power BI | Dashboard Development & Visualization |
-| SQL | Data Extraction & Business Queries |
-| DAX | KPI Calculations & Measures |
-| Power Query | Data Cleaning & Transformation |
+| SQL | Data Storage & Querying |
+| Power BI | Dashboard Development |
+| DAX | KPI Calculations |
+| Power Query | Data Cleaning |
 | Excel / CSV | Dataset Source |
-| Data Modeling | Relationship Building |
+| Data Modeling | Relationship Management |
+
+---
+
+# 🚀 Project Creation Process
+
+---
+
+# 🔹 Step 1: Dataset Source Using SQL
+
+The raw retail sales dataset was first stored and managed in a SQL database.
+
+SQL was used for:
+
+- Data Extraction
+- Data Cleaning
+- Joining Multiple Tables
+- Aggregation Queries
+- Business Analysis
+
+---
+
+## 📂 Import SQL Data into Power BI
+
+### Step 1:
+Open **Power BI Desktop**
+
+### Step 2:
+Click:
+
+```text
+Home → Get Data → SQL Server
+```
+
+### Step 3:
+Enter:
+
+```text
+Server Name
+Database Name
+```
+
+### Step 4:
+Choose:
+
+```text
+Import Mode
+```
+
+### Step 5:
+Load tables into Power BI.
+
+---
+
+## 🧾 Example SQL Queries
+
+### ✔ Total Revenue
+
+```sql
+SELECT SUM(Sales) AS Total_Revenue
+FROM Orders;
+```
+
+---
+
+### ✔ Top 10 Products by Revenue
+
+```sql
+SELECT Product_Name,
+       SUM(Sales) AS Revenue
+FROM Orders
+GROUP BY Product_Name
+ORDER BY Revenue DESC
+LIMIT 10;
+```
+
+---
+
+### ✔ Monthly Revenue Analysis
+
+```sql
+SELECT MONTH(Order_Date) AS Month,
+       SUM(Sales) AS Revenue
+FROM Orders
+GROUP BY MONTH(Order_Date)
+ORDER BY Month;
+```
+
+---
+
+# 🔹 Step 2: Data Analysis in Power BI
+
+After importing the SQL data into Power BI, the dataset was analyzed and transformed using Power Query and DAX.
+
+---
+
+## ✔ Data Cleaning
+
+Performed using Power Query:
+
+- Removed duplicate records
+- Handled missing values
+- Changed data types
+- Formatted columns
+- Cleaned inconsistent data
+
+---
+
+## ✔ Data Modeling
+
+Created relationships between multiple tables:
+
+- Orders Table
+- Customers Table
+- Products Table
+- Sales Table
+
+Implemented:
+
+- Fact Tables
+- Dimension Tables
+- Star Schema Model
+
+---
+
+## ✔ DAX Measures Created
+
+```DAX
+Total Revenue = SUM(Orders[Sales])
+```
+
+```DAX
+Total Profit = SUM(Orders[Profit])
+```
+
+```DAX
+Average Order Value = DIVIDE([Total Revenue],[Total Orders])
+```
 
 ---
 
@@ -99,123 +229,63 @@ This dashboard solves these problems through interactive business intelligence r
 
 ---
 
-# 🗃 SQL Integration
+# 📈 Key Insights
 
-This project uses SQL concepts for:
-
-- Data Extraction
-- Data Cleaning
-- Table Joins
-- Business Analysis
-- Aggregation Queries
-- Data Preparation for Power BI
-
----
-
-# 🧾 Example SQL Queries
-
-## 🔹 Total Revenue
-
-```sql
-SELECT SUM(Sales) AS Total_Revenue
-FROM Orders;
-```
-
----
-
-## 🔹 Top 10 Products by Revenue
-
-```sql
-SELECT Product_Name,
-       SUM(Sales) AS Revenue
-FROM Orders
-GROUP BY Product_Name
-ORDER BY Revenue DESC
-LIMIT 10;
-```
-
----
-
-## 🔹 Monthly Revenue Trend
-
-```sql
-SELECT MONTH(Order_Date) AS Month,
-       SUM(Sales) AS Revenue
-FROM Orders
-GROUP BY MONTH(Order_Date)
-ORDER BY Month;
-```
+- Identified top-performing products and categories.
+- Analyzed regional sales performance.
+- Compared monthly business growth trends.
+- Evaluated customer purchasing patterns.
+- Improved business understanding through visual analytics.
 
 ---
 
 # ⚙️ Power BI Techniques Used
 
 ## 🔹 Data Preparation
-- Data Cleaning using Power Query
-- Handling Missing Values
-- Removing Duplicates
-- Data Formatting
+- Power Query
+- Data Cleaning
+- Data Transformation
 
 ## 🔹 Data Modeling
-- Table Relationships
-- Star Schema Modeling
+- Relationships
+- Star Schema
 - Fact & Dimension Tables
 
-## 🔹 DAX Measures
-- Revenue Calculations
-- Profit Measures
-- Average Order Value
-- Dynamic KPIs
+## 🔹 DAX Functions
+- SUM()
+- DIVIDE()
+- CALCULATE()
+- FILTER()
 - Time Intelligence Functions
 
-## 🔹 Visualization Techniques
+## 🔹 Visualization
 - Interactive Dashboard Design
-- Dynamic Filtering
-- Drill-through Analysis
 - Conditional Formatting
+- Dynamic Filtering
 - KPI Reporting
-
----
-
-# 📈 Key Insights
-
-- Identified top-performing product categories.
-- Analyzed monthly business growth trends.
-- Compared state-wise sales performance.
-- Evaluated customer purchasing patterns.
-- Improved business understanding through interactive analytics.
-
----
-
-# 📂 Dataset Information
-
-The dataset includes:
-
-- Orders Data
-- Product Categories
-- Customer Information
-- Sales & Profit Metrics
-- Quantity & Revenue Data
-- Regional/State Information
 
 ---
 
 # 🚀 Project Workflow
 
 ```text
-Data Collection
-       ↓
-SQL Data Extraction
-       ↓
-Data Cleaning
-       ↓
-Data Transformation
-       ↓
+Dataset Collection
+        ↓
+SQL Database Storage
+        ↓
+SQL Queries & Analysis
+        ↓
+Import Data into Power BI
+        ↓
+Data Cleaning using Power Query
+        ↓
 Data Modeling
-       ↓
+        ↓
+DAX Calculations
+        ↓
 Dashboard Development
-       ↓
-Business Insights
+        ↓
+Business Insights Generation
 ```
 
 ---
@@ -226,12 +296,6 @@ Add your dashboard screenshots here.
 
 ```md
 ![Dashboard Screenshot](IMAGE_LINK_HERE)
-```
-
-Example:
-
-```md
-![Dashboard](https://github.com/your-username/project-name/assets/image.png)
 ```
 
 ---
@@ -251,15 +315,15 @@ Example:
 
 # 💡 Skills Demonstrated
 
-- Data Analytics
-- Business Intelligence
-- Power BI Dashboard Development
 - SQL Query Writing
-- DAX Calculations
-- Data Visualization
 - Data Cleaning
-- Business Reporting
-- KPI Analysis
+- Data Modeling
+- Power BI Dashboard Development
+- DAX Calculations
+- Business Intelligence
+- Data Visualization
+- KPI Reporting
+- Retail Analytics
 
 ---
 
@@ -294,7 +358,7 @@ If you like this project, give it a ⭐ on GitHub.
 
 1. Download the `.pbix` file
 2. Open in Power BI Desktop
-3. Refresh the dataset if required
+3. Refresh the SQL dataset if required
 4. Explore the interactive dashboard
 
 ---
