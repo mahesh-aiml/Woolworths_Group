@@ -1,4 +1,3 @@
-<img width="1279" height="766" alt="Screenshot 2026-05-18 002246" src="https://github.com/user-attachments/assets/9e2b9c2f-6d9b-48ff-b72d-4528d268eaf2" /><img width="1277" height="766" alt="Screenshot 2026-05-18 004302" src="https://github.com/user-attachments/assets/2da680b0-16c6-4892-aa66-8a0e78888768" />
 # 🛒 Woolworths Group E-Commerce Business Analytics Dashboard
 
 <div align="center">
