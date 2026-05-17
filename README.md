@@ -278,12 +278,3 @@ Turning business data into meaningful insights through analytics and visualizati
 # ⭐ Give a Star
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
-
-```
-__
-
-# 📬 Connect With Me
-
-* LinkedIn: YOUR_LINKEDIN_LINK
-* GitHub: YOUR_GITHUB_LINK
-
