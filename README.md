@@ -16,7 +16,7 @@
 
 # 📌 Project Overview
 
-This project is a professional **E-Commerce Business Analytics Dashboard** developed using **Power BI** for analyzing the business performance of **:contentReference[oaicite:0]{index=0}**.  
+This project is a professional **E-Commerce Business Analytics Dashboard** developed using **SQL Database** and  **Power BI** for analyzing the business performance.  
 
 The dashboard converts raw business data stored in **MySQL** into meaningful and interactive visual insights that help monitor business growth, customer behavior, product performance, profitability, and shipping operations.
 
@@ -59,7 +59,7 @@ This dashboard solves these challenges by providing a centralized and interactiv
 | MySQL | Data Source & Querying |
 | Power Query | Data Cleaning & Transformation |
 | DAX | KPI & Measure Calculations |
-
+| Data Modeling | Relationship Management |
 ---
 
 # 📂 Dashboard Pages
