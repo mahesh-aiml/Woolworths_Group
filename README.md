@@ -1,3 +1,4 @@
+<img width="1279" height="766" alt="Screenshot 2026-05-18 002246" src="https://github.com/user-attachments/assets/9e2b9c2f-6d9b-48ff-b72d-4528d268eaf2" /><img width="1277" height="766" alt="Screenshot 2026-05-18 004302" src="https://github.com/user-attachments/assets/2da680b0-16c6-4892-aa66-8a0e78888768" />
 # 🛒 Woolworths Group E-Commerce Business Analytics Dashboard
 
 <div align="center">
@@ -164,22 +165,22 @@ Generated meaningful insights for business decision-making.
 # 📷 Dashboard Preview
 
 ## Executive Dashboard
-<img width="100%" alt="Executive Dashboard" src="YOUR_IMAGE_LINK_HERE">
+<img width="1277" height="766" alt="Screenshot 2026-05-18 004302" src="https://github.com/user-attachments/assets/f853962b-8278-46e9-b408-f7c207532dda" />
 
 ---
 
 ## Customer Analysis
-<img width="100%" alt="Customer Analysis" src="YOUR_IMAGE_LINK_HERE">
+<img width="1279" height="766" alt="Screenshot 2026-05-18 002246" src="https://github.com/user-attachments/assets/aa206e30-1bd7-4738-97e5-1a407ea9e4ea" />
 
 ---
 
 ## Product Analysis
-<img width="100%" alt="Product Analysis" src="YOUR_IMAGE_LINK_HERE">
+<img width="1279" height="767" alt="Screenshot 2026-05-18 002608" src="https://github.com/user-attachments/assets/1f4bbc36-3e60-4ef3-96f7-10fff9ff2887" />
 
 ---
 
 ## Shipping Analysis
-<img width="100%" alt="Shipping Analysis" src="YOUR_IMAGE_LINK_HERE">
+<img width="1279" height="766" alt="Screenshot 2026-05-18 002650" src="https://github.com/user-attachments/assets/429b3300-a41a-4c13-a801-6fca142b8a21" />
 
 ---
 
