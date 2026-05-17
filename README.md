@@ -2,38 +2,39 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-<img src="https://img.shields.io/badge/Company-Woolworths%20Group-009640?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Domain-E--Commerce-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Domain-E--Commerce-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Project-Data%20Analytics-success?style=for-the-badge"/>
 
 </div>
 
 ---
 
-# 📌 Overview
+# 📌 Project Overview
 
-This project is a professional **Power BI E-Commerce Analytics Dashboard** developed for analyzing the business performance of **:contentReference[oaicite:0]{index=0}**.
+This project is a professional **E-Commerce Business Analytics Dashboard** created using **Power BI** for analyzing the performance of **:contentReference[oaicite:0]{index=0}**.
 
-The dashboard provides interactive insights into:
+The dashboard converts raw business data from **MySQL** into meaningful insights through interactive visualizations and KPI tracking.
+
+It helps analyze:
 
 - Sales Performance
-- Customer Analysis
+- Customer Behavior
 - Product Performance
 - Shipping Operations
-- Business KPIs
-
-The goal of this project is to transform raw business data into meaningful insights for better business decision-making.
+- Business Growth Trends
 
 ---
 
-# 🎯 Project Objectives
+# 🎯 Business Objectives
 
-- Analyze sales and profit performance
-- Identify top-performing products
-- Understand customer purchasing behavior
-- Monitor shipping performance
-- Track important business KPIs
-- Create interactive business dashboards
+- Track overall sales and profit performance
+- Identify top-performing products and categories
+- Analyze customer purchasing behavior
+- Monitor shipping and delivery performance
+- Generate business insights using KPIs
+- Support data-driven decision-making
 
 ---
 
@@ -42,24 +43,23 @@ The goal of this project is to transform raw business data into meaningful insig
 | Tool | Purpose |
 |---|---|
 | Power BI | Dashboard Development |
-| SQL | Data Import & Querying |
-| Power Query | Data Cleaning |
-| DAX | KPI Calculations |
-| Excel / CSV | Dataset Handling |
+| MySQL | Data Source & Querying |
+| Power Query | Data Cleaning & Transformation |
+| DAX | KPI & Measure Calculations |
 
 ---
 
 # 📂 Dashboard Pages
 
 ## 🏠 Executive Dashboard
-- Revenue & Profit Analysis
-- Sales Trends
-- Regional Performance
+- Revenue Analysis
+- Profit Tracking
 - KPI Overview
+- Sales Trends
 
 ## 👥 Customer Analysis
-- Top Customers
-- Customer Purchasing Trends
+- Customer Insights
+- Purchase Behavior
 - Customer Contribution
 
 ## 📦 Product Analysis
@@ -70,19 +70,20 @@ The goal of this project is to transform raw business data into meaningful insig
 ## 🚚 Shipping Analysis
 - Delivery Performance
 - Shipping Efficiency
-- Operational Insights
+- Logistics Insights
 
 ---
 
 # 📊 Key Features
 
-✅ Interactive Dashboard  
+✅ Interactive Power BI Dashboard  
 ✅ KPI Monitoring  
 ✅ Customer Analytics  
 ✅ Product Analytics  
-✅ Shipping Analysis  
-✅ Professional UI Design  
-✅ Multi-Page Reporting  
+✅ Shipping Analytics  
+✅ Business Performance Tracking  
+✅ Professional Dashboard Design  
+✅ Data Storytelling  
 
 ---
 
@@ -99,12 +100,20 @@ The goal of this project is to transform raw business data into meaningful insig
 
 # 🔄 Project Workflow
 
-1. Data Collection  
-2. Data Cleaning using Power Query  
-3. Data Modeling  
-4. DAX Measure Creation  
-5. Dashboard Development  
-6. Business Insight Generation  
+### 1️⃣ Data Collection
+Imported e-commerce business data from **MySQL**.
+
+### 2️⃣ Data Cleaning
+Performed data transformation using **Power Query**.
+
+### 3️⃣ Data Modeling
+Created relationships between tables for analysis.
+
+### 4️⃣ KPI Creation
+Built analytical measures using **DAX**.
+
+### 5️⃣ Dashboard Development
+Designed interactive dashboards in **Power BI**.
 
 ---
 
@@ -118,11 +127,23 @@ The goal of this project is to transform raw business data into meaningful insig
 # 📚 Skills Demonstrated
 
 - Power BI Dashboard Development
+- MySQL Querying
 - Data Visualization
 - KPI Reporting
 - Business Analysis
 - Data Modeling
 - DAX Calculations
+
+---
+
+# 📁 Project Structure
+
+```bash
+📦 Woolworths-Ecommerce-Analytics
+ ┣ 📂 Dashboard Images
+ ┣ 📜 Woolworths_Ecommerce.pbix
+ ┣ 📜 README.md
+```
 
 ---
 
@@ -132,7 +153,7 @@ The goal of this project is to transform raw business data into meaningful insig
 
 Aspiring Data Analyst skilled in:
 - Power BI
-- SQL
+- MySQL
 - Excel
 - Python
 
@@ -140,6 +161,6 @@ Aspiring Data Analyst skilled in:
 
 # ⭐ Support
 
-If you like this project, give it a ⭐ on GitHub.
+If you found this project useful, give it a ⭐ on GitHub.
 
 ---
