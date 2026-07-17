@@ -235,18 +235,6 @@ Generated meaningful insights for business decision-making.
  ┣ 📜 Woolworths_Ecommerce.pbix
  ┣ 📜 README.md
 ```
-
----
-
-# 🔮 Future Improvements
-
-- Sales Forecasting
-- Advanced DAX Measures
-- Drill-Through Reports
-- Dynamic Tooltips
-- Mobile Dashboard Optimization
-- AI-Based Insights
-
 ---
 
 # 👨‍💻 Created By
